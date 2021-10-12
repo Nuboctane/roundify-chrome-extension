@@ -1,0 +1,22 @@
+{
+    "name": "roundify",
+    "description": "roundify all elements on a page",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "background" : {
+        "scripts" : ["background.js"]
+    },
+    "browser_action" : {
+        "default_icon": "dumbass.png"
+    },
+    "permissions": [
+        "tabs",
+        "https://www.roblox.com/home", 
+        // "https://stackoverflow.com/", 
+        "https://github.com/" 
+        // "https://www.youtube.com/" ,
+        // "https://www.twitch.tv/"
+      ]
+}
+
+// recomemnded not to use <all_url> thing, this doesnt work on any website
